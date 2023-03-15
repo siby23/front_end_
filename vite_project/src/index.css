@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  background-color: #181818;
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+  min-height: 100vh;
+  overflow-y: scroll
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* #root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 16px;
+  
+}
